@@ -1,3 +1,5 @@
+require.pry
+
 class Anagram
 
   attr_accessor :word
@@ -11,6 +13,7 @@ class Anagram
     anagrams_array = anagrams.each do |words|
       words.split("")
     end
+    binding.pry
     anagrams_array.each do |pop|
       if pop.sort == word_array.sort
         pop.join
