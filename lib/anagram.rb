@@ -15,7 +15,7 @@ class Anagram
     end
     anagrams_array.each do |pop|
       if pop.split("").sort == word_array.sort
-        pop.split
+        pop
       else
         pop = []
       end 
