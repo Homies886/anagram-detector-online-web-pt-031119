@@ -1,4 +1,4 @@
-require.pry
+require.Pry
 
 class Anagram
 
