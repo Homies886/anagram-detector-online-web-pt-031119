@@ -1,5 +1,3 @@
-require 'pry'
-
 class Anagram
 
   attr_accessor :word
@@ -17,13 +15,5 @@ class Anagram
       end
     end
     words_match
-    #binding.pry
-    # anagrams_array.each do |pop|
-    #   if pop.sort == word_array.sort
-    #     pop
-    #   else
-    #     pop = []
-    #   end 
-    # end
   end
 end
